@@ -35,7 +35,7 @@
 6. **Open app**
    Visit `http://localhost:3000`
 
-7. To populate the db with test data run the script in populate_comments.sql while connected to the database via e.g. TablesPlus
+7. (Optional) To populate the db with test data run the script in populate_comments.sql while connected to the database via e.g. TablesPlus. Check the .env folder which was created for connection details.
 
 ## API Endpoints
 
