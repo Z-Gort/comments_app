@@ -8,13 +8,11 @@
    pnpm install
    ```
 
-2. **Set up environment**
+2. **Copy .env.example**
 
    ```bash
    cp .env.example .env
    ```
-
-   Edit `.env` and add your database URL.
 
 3. **Start database**
 
@@ -36,6 +34,8 @@
 
 6. **Open app**
    Visit `http://localhost:3000`
+
+7. To populate the db with test data run the script populate_comments.sql while connected to the database via e.g. TablesPlus
 
 ## API Endpoints
 
