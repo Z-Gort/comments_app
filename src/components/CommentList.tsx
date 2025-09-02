@@ -199,7 +199,7 @@ export function CommentsList() {
         <div className="space-y-4">
           {comments.map((comment) => (
             <Card key={comment.id} className="w-full">
-              <CardHeader className="pb-3">
+              <CardHeader>
                 <div className="flex items-start justify-between">
                   <div className="flex items-start space-x-3">
                     <Avatar className="h-10 w-10">
